@@ -1,0 +1,12 @@
+models/
+input/
+output/
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.gguf
+*.tar.gz
+*.whl
+.DS_Store
+Thumbs.db
