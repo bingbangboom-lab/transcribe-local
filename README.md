@@ -1,4 +1,4 @@
-# transcriber
+# transcribe-local
 
 Offline speech-to-text using [transcribe.cpp](https://github.com/handy-computer/transcribe.cpp). Runs locally on your machine with no cloud APIs and no internet required after setup.
 
