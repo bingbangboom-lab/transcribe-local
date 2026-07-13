@@ -123,6 +123,17 @@ python transcribe.py -m models/parakeet-tdt-0.6b-v2/parakeet-tdt-0.6b-v2-Q8_0.gg
 python transcribe.py --list-models
 ```
 
+### Graphical User Interface
+
+A simple browser-based UI built with [marimo](https://marimo.io/) is available in `ui.py`. Install marimo, then run the app:
+
+```bash
+pip install marimo
+marimo run ui.py
+```
+
+This opens a page in your browser where you can upload an audio file, pick a model, optionally set a language, toggle timestamps, and press **Transcribe**. The transcript is shown on the page and also saved to the `output/` folder, same as the CLI.
+
 ### Output
 
 Every input audio file produces a `.txt` file in the `output/` folder (default). Filename matches the input (e.g. `jfk.wav` → `output/jfk.txt`).
